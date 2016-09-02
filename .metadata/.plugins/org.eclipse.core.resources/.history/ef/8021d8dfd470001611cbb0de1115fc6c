@@ -1,0 +1,9 @@
+package com.rf.page;
+
+import org.testng.annotations.Test;
+
+public class rfHomePage {
+  @Test
+  public void f() {
+  }
+}

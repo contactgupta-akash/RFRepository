@@ -1,0 +1,15 @@
+package a.b;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class CTest {
+
+	
+	@Test
+	public void t1(){
+		WebDriver driver = new FirefoxDriver();
+		
+	}
+}

@@ -1,0 +1,16 @@
+package com.rf.page;
+
+import org.openqa.selenium.WebDriver;
+
+public class RFHomePage {
+
+	 
+		WebDriver driver;
+		public RFHomePage(WebDriver driver) {
+			this.driver=driver;
+		}
+		
+		public void navigateToRF(){
+			driver.get("https://www.rodanandfields.com/ca/");
+		}
+}

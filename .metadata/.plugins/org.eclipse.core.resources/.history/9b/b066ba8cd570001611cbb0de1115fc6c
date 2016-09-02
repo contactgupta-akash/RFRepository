@@ -1,0 +1,13 @@
+package com.rf.test;
+
+import org.testng.annotations.Test;
+
+import com.rf.base.test.Driver;
+
+public class RodaandFieldsTest extends Driver {
+  @Test
+  public void rfFunctionalityTest() {
+	  
+	  
+  }
+}

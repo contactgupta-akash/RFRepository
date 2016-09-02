@@ -1,0 +1,24 @@
+package com.rf.page;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class RFHomePage {
+
+	 
+		WebDriver driver;
+		public RFHomePage(WebDriver driver) {
+			this.driver=driver;
+		}
+		
+		public void navigateToRF(){
+			driver=new FirefoxDriver();
+			driver.get("https://www.rodanandfields.com/ca/");
+		}
+		
+		public void applyImplicitWait(){
+			driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
+		}
+}

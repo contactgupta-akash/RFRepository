@@ -1,0 +1,23 @@
+package com.rf.test;
+
+import org.testng.annotations.Test;
+
+import com.rf.base.test.Driver;
+import com.rf.page.RFHomePage;
+
+public class RodaandFieldsTest extends Driver {
+	
+  private RFHomePage rfhomepage;
+  
+  @Test
+  public void rfFunctionalityTest() {
+	  //Instantiate page class
+	  rfhomepage = new RFHomePage(driver);
+	  //Navigate to url
+	  rfhomepage.navigateToRF();
+	  //apply implicit wait
+	  rfhomepage.applyImplicitWait();
+	  
+	  
+  }
+}
